@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link href="./Registration.css" rel="stylesheet">
+    </head>
+    <body>
+        <form action="./page3.html" method="get">
+        <table>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="firstName"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="lastName"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="psw"></td>
+            </tr>
+            <tr>
+                <td rowspan="2" id="gender">Gender</td>
+                <td><input type="radio" name="Gender" value="M">Male</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="Gender" value="F">Female</td>
+            </tr>
+            <tr>
+                <td>Birthday: <select required>
+                    <option value="" disabled selected hidden>[Select a Month]</option>
+                    <option>January</option>
+                    <option>Feb</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>Septemper</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                </select></td>
+                <td ><input type="number" name="day" id="day" placeholder="dd"><input type="number" name="year" id="year" placeholder="yyyy"></td>
+            </tr>
+            <tr>
+                <td colspan="2" id="Interest">Interests</td>
+            </tr>
+            <tr>
+                <td> <input type="checkbox" name="chb1" value="sport">Sports</td>
+                <td><input type="checkbox" name="chb2" value="music">Music</td>
+            </tr>
+            <tr>
+                <td> <input type="checkbox" name="chb3" value="Books">Books</td>
+                <td><input type="checkbox" name="chb4" value="Computer Stuff">Computer Stuff</td>
+            </tr>
+            <tr>
+                <td> <input type="checkbox" name="chb5" value="Fashion">Fashion</td>
+                <td><input type="checkbox" name="chb6" value="Movies">Movies</td>
+            </tr>
+            <tr>
+                <td colspan="2" id="submit"><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+    </body>
+</html>

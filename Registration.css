@@ -1,0 +1,25 @@
+*{
+    background-color: bisque;
+}
+
+form{
+    margin: 10% 40%;
+    border: 5px solid red;
+}
+#gender{
+    text-align: center;
+    font-weight: bold;
+}
+#Interest{
+    text-align: center;
+    font-weight: bold; 
+}
+#submit{
+    text-align: center;
+}
+#day{
+    width:40px;
+}
+#year{
+    width:40px;
+}

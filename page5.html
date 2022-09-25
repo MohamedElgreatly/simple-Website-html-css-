@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Log In Form</title>
+       <link rel="stylesheet" href="./page5.css">
+    </head>
+    <body>
+        <form action="./page2.html">
+           <fieldset>
+            <legend>Log In</legend>
+            <label>User Name: </label>
+            <input type="text" name="UserName" placeholder="Enter Your User name here! ">
+            <br>
+            <label>passWord:</label>
+            <input type="password" name="Psw" >
+            <br>
+            <label>Select Your Location: </label>
+            <select>
+                
+                <optgroup label="Africa">
+                    <option>Egypt</option>
+                    <option>Sudan</option>
+                    <option>Namibi</option>
+                </optgroup>
+                <optgroup label="Europe">
+                    <option>France</option>
+                    <option>Russia</option>
+                    <option>UK</option>
+                </optgroup>
+                <optgroup label="North America" disabled>
+                    <option>Canada</option>
+                    <option>Mexico</option>
+                    <option>USA</option>
+                </optgroup>
+            </select>
+            <br>
+            <input type="checkbox" name="chk1" value="RememberMe" accesskey="m"><label>Remember<u>M</u>e</label>
+            <br>
+            <br>
+            <input type="submit" value="Log In">
+           </fieldset>
+        </form>
+    </body>
+</html>
